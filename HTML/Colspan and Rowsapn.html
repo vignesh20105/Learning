@@ -3,34 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table Size</title>
+    <title>Colspan and Rowspan</title>
     <style>
         table,th,td{
             border: 2px solid black;
             border-collapse: collapse;
+            padding: 10px;
         }
     </style>
 </head>
 <body>
     <a href="../index.html">Back to Index</a>
-    <h1 style="text-align: center;">TABLE SIZE</h1>
-<hr>
-    <table style="width:100%">
+    <h1>COLSPAN</h1>
+
+    <table>
   <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
+    <th colspan="2">Name</th>
     <th>Age</th>
   </tr>
   <tr>
-    <td style="height: 200px;">Jill</td>
+    <td>Jill</td>
     <td>Smith</td>
-    <td>50</td>
+    <td>43</td>
   </tr>
   <tr>
-    <td style="height: 200px;">Eve</td>
+    <td>Eve</td>
     <td>Jackson</td>
-    <td>94</td>
+    <td>57</td>
   </tr>
 </table>
+<hr>
+<h1>ROWSPAN</h1>
+<table>
+  <tr>
+    <th>Name</th>
+    <td>Jill</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Phone</th>
+    <td>555-1234</td>
+  </tr>
+  <tr>
+    <td>555-8745</td>
+</tr>
+</table>
+
 </body>
 </html>
