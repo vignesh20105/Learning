@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .Header{
+            background-color: grey;
+            
+            text-align: center;
+            width: 100%;
+            padding: 10px;
+        }
+
+        .menu {
+            float: left;
+            width: 20%;
+            text-align: center;
+            
+        }
+        .menu > p{
+            background-color: grey;
+            padding: 5px;
+        }
+        .main{
+           display: flex;
+            background-color:bisque;
+            width: 60%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 7px;
+            
+        }
+        .right  {
+            background-color: grey;
+            display: flex;
+            width: 20%;
+           align-items: center;
+           justify-content: center;
+           margin-top: 7px;
+           
+           
+        }
+        .footer{
+            background-color: grey;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="../index.html">back to Index</a>
+    <h1 style="text-align: center;">
+        HTML LAYOUT
+    </h1>
+
+    <div class="Header">
+        <h1>HEADER</h1>
+
+    </div>
+
+    <div style="display: flex;">
+        <div class="menu">
+            <p>Link 1</p>
+            <p>Link 2</p>
+            <p>Link 3</p>
+            <p>Link 4</p>
+        </div>
+
+        <div class="main">
+            It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.
+        </div>
+        <div class="right">London is the capital city of England.</div>
+    </div>
+    <br>
+    <div class="footer">
+        <H1>FOOTER</H1>
+    </div>
+</body>
+
+</html>
