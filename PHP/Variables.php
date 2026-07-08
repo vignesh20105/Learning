@@ -16,6 +16,14 @@ echo "I love $txt! <br>";
     $b = 10;
     echo "The Addition for $a + $b is ";
     echo $a + $b ;
+    echo "<br>";
+
+    echo" Data types and variables ";
+    echo "<br>";
+    var_dump(5);
+    var_dump($b);
+    echo "<br>";
+    var_dump('John');
     ?>
 </body>
 </html>
