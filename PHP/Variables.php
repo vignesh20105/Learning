@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+<pre>
 
 <?php
 $txt = "W3Schools.com";
@@ -16,7 +17,7 @@ echo "I love $txt! <br>";
     $b = 10;
     echo "The Addition for $a + $b is ";
     echo $a + $b ;
-    echo "<br>";
+    
 
     echo" Data types and variables ";
     echo "<br>";
@@ -24,6 +25,10 @@ echo "I love $txt! <br>";
     var_dump($b);
     echo "<br>";
     var_dump('John');
+    echo "<br>";
+    var_dump([2, 3, 56]);
+
     ?>
+    </pre>
 </body>
 </html>
