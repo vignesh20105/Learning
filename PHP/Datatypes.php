@@ -6,12 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
+    <pre>
+        <?php
+        $x = 5;
+var_dump($x);
 
-    //variables are Case senitive
-    $color = "red";
-    echo "My house is $color";
-    echo "My house is $Color";
-    ?>
+        $x = 10.365;
+var_dump($x);
+$x = true;
+var_dump($x);
+$cars = array("Volvo","BMW","Toyota");
+var_dump($cars);
+        ?>
+        </pre>
 </body>
 </html>

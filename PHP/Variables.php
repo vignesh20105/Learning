@@ -17,7 +17,9 @@ echo "I love $txt! <br>";
     $b = 10;
     echo "The Addition for $a + $b is ";
     echo $a + $b ;
-    
+    echo "<br>";
+    echo "<br>";
+    echo "<br>";
 
     echo" Data types and variables ";
     echo "<br>";
