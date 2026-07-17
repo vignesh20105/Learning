@@ -7,3 +7,11 @@ if(5>8)
         echo "Incorrect";
     }
     ?>
+    <br>
+    <?php
+
+    if(5==5)
+        {
+            echo "5==5";
+        }
+        ?>
